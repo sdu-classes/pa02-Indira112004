@@ -10,6 +10,7 @@ public class Dog extends Mammal{
 
         System.out.println("Wooof");
     }
+    @Override
     public String toString(){
         return String.format("Dog[%s]", super.toString());
     }
