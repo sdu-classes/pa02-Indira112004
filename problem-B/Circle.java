@@ -27,7 +27,6 @@ public class Circle extends  Shape{
     public String toString(){
       return String.format("A Circle with radius = %.2f, which is a subclass of %s", this.radius,
                 super.toString());
-//        return String.format("A Circle with radius = %s, which is a subclass of %s", )
     }
 
 }
