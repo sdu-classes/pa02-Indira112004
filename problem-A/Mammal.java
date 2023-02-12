@@ -3,6 +3,7 @@ public class Mammal extends Animal {
         super(name);
 
     }
+    @Override
     public String toString(){
         return String.format("Mammal[%s]", super.toString());
     }
